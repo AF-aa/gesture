@@ -1,4 +1,4 @@
-# 手势识别
+# 静态手势识别
 深度学习课设
 一共识别5种手势动作
 1. 剪刀动作  2.石头动作 3.布动作  4.OK动作  5.good动作
@@ -17,3 +17,10 @@
 11. `Train.py`：训练CNN模型函数，并将训练好的模型参数保存在本地。
 12. `Train_inputdata.py`：用来读取数据集的图像和标签，并打包成batch形式。
 13. `Train_model.py`：模型结构，采用AlexNet结构。
+
+环境要求如下：
+1. Python3.7
+2. numpy1.20.1
+3. OpenCV3.4.5.20
+4. scikit-learn 0.20.2
+5. TensorFlow 1.15.0
